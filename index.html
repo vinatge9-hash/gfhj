@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morning Glory Café - Fresh Coffee & Pastries</title>
+  <meta name="description" content="Morning Glory Café offers artisan coffee, freshly baked pastries, and a cozy space to enjoy a perfect brew." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="font-sans antialiased bg-gray-50">
+  <!-- Navigation -->
+  <header>
+    <nav class="bg-white shadow sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex-shrink-0 flex items-center">
+            <a href="index.html" class="text-2xl font-semibold font-[Montserrat] text-gray-800">Morning Glory Café</a>
+          </div>
+          <div class="hidden md:flex md:items-center md:space-x-4">
+            <a href="index.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+            <a href="about.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <a href="menu.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Menu</a>
+            <a href="contact.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Visit</a>
+          </div>
+          <div class="md:hidden flex items-center">
+            <button id="mobile-menu-button" class="text-gray-700 hover:text-gray-900 focus:outline-none"><i class="fas fa-bars"></i></button>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+        <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
+        <a href="menu.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Menu</a>
+        <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Visit</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section with Background Image -->
+    <section class="relative min-h-screen bg-cover bg-center" style="background-image: url('https://pixabay.com/get/g0ee34814603b62d0f215206ed6ed97c070aea1f248c2d9b4000a301b5e6e14b5fb5074821bbadcba2eb097047478c974968da263e5274703e27804e12a63c883_640.jpg');">
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div class="relative z-10 max-w-4xl mx-auto px-4 text-center text-white py-40 sm:py-48">
+        <h1 class="font-[Montserrat] text-4xl md:text-5xl font-bold mb-4">Wake Up to Fresh Brew</h1>
+        <p class="font-[Open Sans] text-lg md:text-xl mb-8">Small-batch coffee, ethically sourced beans, and a cozy space to linger.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="menu.html" class="bg-[#D2B48C] text-[#3B2A1D] px-6 py-3 rounded-full font-semibold shadow hover:shadow-lg hover:bg-[#e3c7a0] transition-all duration-300">View Menu</a>
+          <a href="contact.html" class="border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-[#3B2A1D] transition-all duration-300">Find Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Highlights -->
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-all">
+            <div class="text-3xl mb-2">☕ Freshly Roasted</div>
+            <p class="text-gray-700">Small-batch beans roasted weekly for peak flavor.</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-all">
+            <div class="text-3xl mb-2">🥐 Fresh Pastries</div>
+            <p class="text-gray-700">Daily croissants, muffins, and scones baked in-house.</p>
+          </div>
+          <div class="p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-all">
+            <div class="text-3xl mb-2">🪑 Cozy Vibe</div>
+            <p class="text-gray-700">Relaxing space with free Wi-Fi and comfortable seating.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (Coffee Shop specific) -->
+  <footer class="bg-[#3C2415] text-white">
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-2xl font-semibold mb-3" style="font-family: Montserrat, sans-serif;">Morning Glory Café</h3>
+          <p class="text-gray-200 mb-4">Your neighborhood coffee haven.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-200 hover:text-yellow-300" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-200 hover:text-yellow-300" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-200 hover:text-yellow-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-3" style="color: #F5E3C2;">Contact</h4>
+          <p>456 Bean Avenue, Coffee District</p>
+          <p>(555) 012-3456</p>
+          <p>hello@morningglory.cafe</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-3" style="color: #F5E3C2;">Hours</h4>
+          <p>Mon-Fri: 6:00 AM - 8:00 PM</p>
+          <p>Sat-Sun: 7:00 AM - 9:00 PM</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-3" style="color: #F5E3C2;">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="menu.html" class="hover:underline">Coffee Menu</a></li>
+            <li><a href="#" class="hover:underline">Loyalty Program</a></li>
+            <li><a href="contact.html" class="hover:underline">Events</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-gray-600 my-8 opacity-50">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="text-center md:text-left mb-4 md:mb-0">
+          <p class="text-gray-400 text-sm">© 2025 Morning Glory Café. Locally roasted coffee since 2020.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const btn = document.getElementById('mobile-menu-button');
+      const menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', () => {
+          menu.classList.toggle('hidden');
+        });
+      }
+      // Simple scroll reveal for sections (no external CSS required)
+      const sections = document.querySelectorAll('section');
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.style.opacity = '1';
+            e.target.style.transform = 'translateY(0)';
+            e.target.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            obs.unobserve(e.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -20% 0px', threshold: 0.1 });
+      sections.forEach(sec => {
+        sec.style.opacity = '0';
+        sec.style.transform = 'translateY(20px)';
+        obs.observe(sec);
+      });
+    });
+  </script>
+</body>
+</html>
