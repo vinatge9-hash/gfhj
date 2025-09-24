@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Morning Glory Café</title>
+  <meta name="description" content="Learn about Morning Glory Café, our coffee philosophy, and what makes us a cozy neighborhood spot." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="font-sans antialiased bg-gray-50">
+  <header>
+    <nav class="bg-white shadow sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex-shrink-0 flex items-center">
+            <a href="index.html" class="text-2xl font-semibold font-[Montserrat] text-gray-800">Morning Glory Café</a>
+          </div>
+          <div class="hidden md:flex md:items-center md:space-x-4">
+            <a href="index.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+            <a href="about.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <a href="menu.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Menu</a>
+            <a href="contact.html" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Visit</a>
+          </div>
+          <div class="md:hidden flex items-center">
+            <button id="mobile-menu-button" class="text-gray-700 hover:text-gray-900 focus:outline-none"><i class="fas fa-bars"></i></button>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+        <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
+        <a href="menu.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Menu</a>
+        <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Visit</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="font-[Montserrat] text-3xl md:text-4xl font-bold mb-4">Our Story</h1>
+          <p class="font-[Open Sans] text-gray-700 leading-relaxed">Morning Glory Café began as a simple idea: to create a warm, welcoming space where people could enjoy thoughtful coffee, share conversations, and savor freshly baked pastries. We partner with small, ethical roasters and local bakers to bring you quality you can taste in every cup.</p>
+        </div>
+        <div>
+          <img src="https://images.pexels.com/photos/33995272/pexels-photo-33995272.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Cozy cafe corner" class="w-full h-auto rounded-lg shadow-lg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <article class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition-all">
+          <h3 class="text-xl font-semibold mb-2" style="font-family: Montserrat, sans-serif;">Ethical Sourcing</h3>
+          <p class="text-gray-700">We work with farms that prioritize sustainability and fair-trade practices.</p>
+        </article>
+        <article class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition-all">
+          <h3 class="text-xl font-semibold mb-2" style="font-family: Montserrat, sans-serif;">Community Focus</h3>
+          <p class="text-gray-700">We host regular events and partner with local artists and writers.</p>
+        </article>
+        <article class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition-all">
+          <h3 class="text-xl font-semibold mb-2" style="font-family: Montserrat, sans-serif;">Craftsmanship</h3>
+          <p class="text-gray-700">From bean to cup, our baristas craft every drink with care.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#3C2415] text-white">
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-2xl font-semibold mb-3" style="font-family: Montserrat, sans-serif;">Morning Glory Café</h3>
+          <p class="text-gray-200">Neighborhood coffee with a global palate.</p>
+          <div class="mt-4 flex space-x-4">
+            <a href="#" class="text-gray-200 hover:text-yellow-300" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-200 hover:text-yellow-300" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-200 hover:text-yellow-300" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-3" style="color: #F5E3C2;">Contact</h4>
+          <p>456 Bean Avenue, Coffee District</p>
+          <p>(555) 012-3456</p>
+          <p>hello@morningglory.cafe</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-3" style="color: #F5E3C2;">Hours</h4>
+          <p>Mon-Fri: 6:00 AM - 8:00 PM</p>
+          <p>Sat-Sun: 7:00 AM - 9:00 PM</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-3" style="color: #F5E3C2;">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="menu.html" class="hover:underline">Menu</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li><a href="contact.html" class="hover:underline">Visit</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-gray-600 my-6 opacity-50" />
+      <p class="text-center text-sm text-gray-300">© 2025 Morning Glory Café. Locally roasted coffee since 2020.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const btn = document.getElementById('mobile-menu-button');
+      const menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
+      // Reveal sections on scroll for clean UX
+      const sections = document.querySelectorAll('section');
+      sections.forEach(sec => {
+        sec.style.opacity = '0';
+        sec.style.transform = 'translateY(20px)';
+        sec.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+      });
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.style.opacity = '1';
+            e.target.style.transform = 'translateY(0)';
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -20% 0px' });
+      sections.forEach(s => obs.observe(s));
+    });
+  </script>
+</body>
+</html>
